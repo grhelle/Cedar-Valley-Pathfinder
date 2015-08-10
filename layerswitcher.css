@@ -1,0 +1,48 @@
+@font-face {
+font-family: Modeka;
+src: url("../fonts/modeka.otf") format("opentype");
+}
+
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+	
+}
+
+header{
+ background: -webkit-linear-gradient(90deg, #252654 10%, #355970 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #252654 10%, #355970 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #252654 10%, #355970 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #252654 10%, #355970 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #252654 10%, #355970 90%); /* W3C */
+}
+
+#title {
+	text-align: center;
+	font-family: Modeka;
+	color: white;
+	font-size: 6em;
+}
+
+nav{
+	font-size:2em;
+	background-color:#ffae00;
+	text-align: center;
+	font-family: Modeka;
+	padding: .2em;
+	word-spacing: 2.5em;
+	
+}
+
+a:link    {color:#252654; border: 2px solid transparent; background-color:transparent; text-decoration:none}
+a:visited {color:#252654; border: 2px solid transparent; background-color:transparent; text-decoration:none}
+a:hover   {color:#252654; border: 2px solid #252654; text-decoration:none}
+a:active  {color:#252654; border: 2px solid #252654; background-color:transparent; text-decoration:none}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
